@@ -207,9 +207,9 @@ contract NftMarketplace is ReentrancyGuard {
         require(success, "Transfer failed");
     }
 
-    /////////////////////
+    //////////////////////
     // Getter Functions //
-    /////////////////////
+    //////////////////////
 
     function getListing(address nftAddress, uint256 tokenId)
         external
